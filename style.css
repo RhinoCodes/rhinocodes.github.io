@@ -1,64 +1,92 @@
-h1{
-  color: #bdbdbd;
-  font-size: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#name{
+    background: white;
+    width: 2px;
+    height: 80px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: width 1s;
+    -webkit-transition: width 1s; /* Safari */
+}
+h2{
+  color: white;
+  font-family: "Overpass",sans-serif;
+}
+button{
+  width: 500px;
+  height: 70px;
+  border-radius: 10%;
+  border-color: black;
+  background: rgb(75, 74, 74);
+  transition: background 250ms ease-in-out;
+  text-align: left;
 }
 
-form button{
-  border-radius: 15px;
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-  background-color: white;
-  color: black;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+button:hover{
+  background: rgb(68, 68, 68);
 }
-
-div#last form{
-  text-align: center;
-  float: left;
-  padding: 25px;
-}
-body{
-  background-color: #161616; 
-}
-
-div#home form{
-  text-align: center;
-  float: left;
-  clear: right;
-  padding: 25px;
-}
-
-form button:hover{
-  background-color: #e7e7e7;
-}
-
-ul {
-  list-style-type: none;
+button p{
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  width: 300px;
+  font-size: 32px;
+  line-height: 70px;
 }
-
-li {
+button img{
   float: left;
+  
+  line-height: 70px;
+  padding-right: 5px;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  font-size: 30;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+button .code{
+  
   float: right;
-  text-decoration: none;
+  height: 25px;
+  width: 25px;
+}
+#menu{
+  display: inline-block;
+  height: 80px;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button{
+  width: 150px;
+  height: 65px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: #1a1aff;
+  transition: background 250ms ease-in-out;
+  cursor: pointer;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: rgb(32, 32, 32);
+.button p{
+  font-size: 25px;
+  line-height: 65px;
+  font-family: "Overpass",sans-serif;
+}
+
+.button:hover{
+  background: #0000cc;
+}
+
+#name h1{
+  margin: 2px;
+  font-family: "Overpass",sans-serif;
+}
+
+#name img{
+   margin: 2px;
+   cursor: pointer;
+}
+.active{
+  width: 250px;
+}
+body{
+  background: black;
 }
