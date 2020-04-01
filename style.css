@@ -10,10 +10,12 @@
     transition: width 1s;
     -webkit-transition: width 1s; /* Safari */
 }
+
 h2{
   color: white;
   font-family: "Overpass",sans-serif;
 }
+
 button{
   width: 500px;
   height: 70px;
@@ -78,7 +80,6 @@ button .code{
 #name h1{
   margin: 2px;
   font-family: "Overpass",sans-serif;
-  display: none;
 }
 
 #title{
