@@ -78,6 +78,7 @@ button .code{
 #name h1{
   margin: 2px;
   font-family: "Overpass",sans-serif;
+  display: none;
 }
 
 #name img{
