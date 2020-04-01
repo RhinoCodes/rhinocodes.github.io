@@ -81,6 +81,11 @@ button .code{
   display: none;
 }
 
+#title{
+    width: 0%;
+    transition: all ease-in-out 1s;
+}
+
 #name img{
    margin: 2px;
    cursor: pointer;
