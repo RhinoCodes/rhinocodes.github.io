@@ -8,3 +8,5 @@ function href(link){
   Location.href = link;
  
 }
+
+width();
