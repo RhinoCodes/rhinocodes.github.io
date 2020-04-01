@@ -8,4 +8,3 @@ function href(link){
   Location.href = link;
  
 }
-body.addEventListener("onload", width);
