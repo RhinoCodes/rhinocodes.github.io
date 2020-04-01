@@ -6,4 +6,4 @@ function href(link){
   Location.href = link;
  
 }
-width();
+body.addEventListener("onload", width);
