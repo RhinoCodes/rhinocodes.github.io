@@ -1,5 +1,5 @@
 #name{
-    background: white;
+    background: transparent;
     width: 2px;
     height: 80px;
     opacity: 1;
@@ -91,4 +91,8 @@ button .code{
 }
 body{
   background: black;
+}
+
+#title {
+    color: white;
 }
