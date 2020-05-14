@@ -102,7 +102,7 @@ body{
     color: white;
     border: 1px white solid;
     width: 85%;
-    height: 100px;
+    height: auto;
     background: transparent;
     transition: all ease-out 100ms;
     cursor: pointer;
